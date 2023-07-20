@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+meta {
+    display: none;
+}
+title {
+    display: none;
+}
+link {
+    display: none;
+}
+div {
+    display: block;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.blank1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(p5.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.front {
+    background-color: azure;
+    position: relative;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #246f8f;
+    /* font-family: "Courier New", Courier, monospace; */
+    width: fit-content;
+    height: 75px;
+    font-size: 45px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.para {
+    display: inline-block;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+}
+.para-head {
+    background-color: black;
+    color: rgb(24, 162, 42);
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    box-shadow: rgba(206, 182, 182, 0.5) 1px 1px 1px;
+}
+.para-body {
+    font-size: 1.3rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 40px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 5px;
+    padding-right: 0px;
+}
+.image1 {
+    width: 100%;
+    height: 60vh;
+    /* background-image: url(p2.png); */
+    background-size: 100vw;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.blank2 {
+    height: 100vh;
+    width: auto;
+    background-image: url(p2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.blank3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(p5.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.image2 {
+    width:100%;
+    height: 60vh;
+    /* background-image: url(https://wallpapercave.com/wp/wp7001529.jpg); */
+    background-size: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.blank3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(p3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.p1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+}
